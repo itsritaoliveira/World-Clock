@@ -11,10 +11,6 @@ h1 {
   font-size: 60px;
 }
 
-h2 {
-  margin: 0 0 5px;
-  font-size: 30px;
-}
 select {
   display: block;
   width: 100%;
@@ -32,13 +28,22 @@ container {
   border-radius: 20px;
 }
 .city {
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  color: rgb(255, 122, 33);
   display: flex;
   margin: 10px 0;
   justify-content: space-between;
   padding: 30px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
+.time {
+  color: black;
+  font-size: 25px;
+  transform: translate(0px, 35px);
+}
 footer {
+  font-family: "Myriad Pro";
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
